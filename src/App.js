@@ -39,9 +39,9 @@ class Wrapper extends Component {
           // overflow: 'hidden',
         }}
       >
-        <div style={{ position: 'fixed', top: 0, right: 0 }}>
+        {/* <div style={{ position: 'fixed', top: 0, right: 0 }}>
           H: {height} | W: {width}
-        </div>
+        </div> */}
         {children}
       </div>
     );
@@ -83,6 +83,7 @@ class App extends Component {
             </div>
           </div>
         </Wrapper>
+        {/* <Wrapper>test</Wrapper> */}
       </div>
     );
   }
