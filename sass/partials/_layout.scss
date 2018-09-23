@@ -50,7 +50,7 @@ body {
     position: absolute;
     right: 0;
     overflow: hidden;
-    bottom: 5vh;
+    bottom: 10vh;
 
     & > .mountain {
       width: 100%;
@@ -63,6 +63,20 @@ body {
       position: absolute;
       bottom: 0;
       right: 75px;
+    }
+  }
+
+  & .scroll-info {
+    position: absolute;
+    bottom: 5vh;
+    left: 0;
+    right: 0;
+    text-align: center;
+
+    & > img {
+      margin-left: 10px;
+      margin-right: 10px;
+      margin-bottom: -7px;
     }
   }
 }
