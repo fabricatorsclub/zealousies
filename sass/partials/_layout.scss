@@ -1,0 +1,68 @@
+@import 'partials/variables';
+
+body {
+  font: {
+    size: 100%;
+    family: $sans-serif;
+  }
+  color: $black;
+}
+
+.App-header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+
+  & > .branding {
+    width: 105px;
+  }
+  padding: 30px;
+}
+
+.home-content {
+  padding: 30px;
+  margin-left: 5vw;
+  margin-right: 5vw;
+  font-size: 1.2vw;
+
+  & h1 {
+    margin-bottom: 30px;
+    font: {
+      size: 2.82em;
+      family: $sans-serif;
+      weight: 800;
+    }
+    line-height: 1.2em;
+  }
+
+  & p {
+    font-size: 1.2em;
+    line-height: 1.5em;
+  }
+
+  & .heroImage {
+    width: 50vw;
+    height: 60vh;
+    min-width: 613px;
+    min-height: 374px;
+    margin-right: 5vw;
+    position: absolute;
+    right: 0;
+    overflow: hidden;
+    bottom: 5vh;
+
+    & > .mountain {
+      width: 100%;
+      position: absolute;
+      right: 0;
+      bottom: 28px;
+    }
+    & > .boy {
+      width: 14.192495921696574%;
+      position: absolute;
+      bottom: 0;
+      right: 75px;
+    }
+  }
+}

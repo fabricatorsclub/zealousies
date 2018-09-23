@@ -1,0 +1,20 @@
+@import 'partials/variables';
+@import 'compass/css3';
+
+h1 {
+  color: $black;
+  font: {
+    size: 2.82rem;
+    family: $sans-serif;
+    weight: 800;
+  }
+  line-height: 3.15rem;
+}
+p {
+  font-size: 1.2rem;
+  line-height: 1.6rem;
+}
+.greyText {
+  color: $darkblue;
+  @include opacity(0.6);
+}
