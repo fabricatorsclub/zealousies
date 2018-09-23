@@ -18,3 +18,24 @@ p {
   color: $darkblue;
   @include opacity(0.6);
 }
+.btn {
+  background: $white;
+  color: $primarycolor;
+  @include box-shadow(0 2px 4px 0 rgba($black, 0.25));
+  height: 40px;
+  padding: 12px 15px;
+  cursor: pointer;
+
+  &.btn-primary {
+    background: $primarycolor;
+    color: $white;
+
+    &:hover {
+      background: rgba($primarycolor, 0.8);
+    }
+  }
+
+  &:hover {
+    @include box-shadow(0 4px 12px 0 rgba($black, 0.4));
+  }
+}

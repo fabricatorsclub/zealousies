@@ -1,4 +1,5 @@
 @import 'partials/variables';
+@import 'compass/css3';
 
 body {
   font: {
@@ -6,6 +7,12 @@ body {
     family: $sans-serif;
   }
   color: $black;
+}
+
+* {
+  box-sizing: border-box;
+  @include transition-property(all);
+  @include transition-duration(0.2s);
 }
 
 .App-header {

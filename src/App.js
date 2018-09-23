@@ -56,7 +56,7 @@ class App extends Component {
           <div className="App">
             <header className="App-header">
               <img src={logo} className="branding" alt="Zealousies" />
-              <a>Get Access</a>
+              <a className="btn btn-primary">Get Access</a>
             </header>
             <div className="home-content">
               <h1>
